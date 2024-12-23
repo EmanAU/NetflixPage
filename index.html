@@ -1,0 +1,155 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+
+            body {
+                background-color: black;
+                padding: 0;
+                margin: 0;
+                overflow: hidden;
+            }
+
+            .backImg-box {
+                position: relative;
+                height: 100vh;
+                width: 100vw;
+                margin-top: 0;
+                z-index: -1;
+            }
+
+            .backImg-box img {
+                opacity: 0.4;
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                margin-top: 0;
+                box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.8);
+            }
+
+            .logo-box {
+                height: 25px;
+                width: 35px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+
+            .logo-box img {
+                padding: 0;
+                max-width: 150px;
+                height: auto;
+                background-color: rgba(0, 0, 0, 0.5);
+            }
+
+            .signin {
+                width: 70px;
+                height: 20px;
+                background-color: red;
+                padding: 0;
+                text-align: center;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+            }
+
+            .mainText {
+                align-self: center;
+                position: absolute;
+                width: 7400px;
+                height: 300px;
+
+                transform: translate(-50%, -50%);
+                left: 50%;
+                right: 50%;
+                top: 50%;
+                z-index: 2;
+                color: white;
+                text-align: center;
+                font-size: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            .smallFont {
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 1.1;
+                display: block; 
+            }
+
+                .searchBox {
+                    color: white;
+                    border: 2px solid rgb(255, 255, 255);  
+                    height: 40px; 
+                    width: 300px; 
+                    position: absolute;
+                    z-index: 3;
+                    margin-top: 41%;
+                    left: 25%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: left;
+                    padding: 0 10px;
+
+                    border-top: 1px solid rgb(255, 255, 255);
+                    border-right: 1px solid rgb(255, 255, 255);
+                    border-left: 1px solid rgb(255, 255, 255);
+                    border-bottom: 1px solid rgb(255, 255, 255);
+                }
+
+
+                .getStarted {
+                    position: absolute;
+                    background-color: red;
+                    height: 40px;
+                    width: 100px;
+                    text-align: center;
+                    align-content: center;
+                    padding: 2px;
+                    margin-top: 41%;
+                    left: 55%;
+                    color: white;
+                }
+
+        </style>
+
+    </head>
+    <body>
+
+    <div>
+
+
+
+        <div class="searchBox">Email address</div>
+
+
+        <div class="getStarted">Get Started ></div>
+
+        <div class="mainText"><b>Unlimited movies,<br> TV shows, and <br>more <br></b>
+        <span class="smallFont">Starts at RS 250. Cancel anytime <br>
+        Ready to watch? Enter your email to create or restart your membership</span></div>
+
+        <div class="logo-box">
+            <img src="https://i.ibb.co/tc6MghG/netflix-logo.png" alt="Netflix logo">
+        </div>
+
+        <div class="signin">Sign in</div>
+
+        <div class="backImg-box">
+            <img src="https://cdn.mos.cms.futurecdn.net/rDJegQJaCyGaYysj2g5XWY-650-80.jpg.webp" alt="Background Image">
+        </div>
+
+
+    </div>
+
+
+
+
+    </body>
+    </html>
